@@ -37,15 +37,15 @@ def getenv(key, default=None):
 
 API_ID = int(getenv("API_ID", ""))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "")
 
 
 # Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 # Your cookies pasted link on batbin.me
 # you can skip if you are adding cookies
@@ -84,11 +84,11 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Group ID or USERNAME for this.
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "").strip()
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1002742625243").strip()
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("OWNER_ID", "7949478281").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -114,11 +114,11 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TheTeamVivek"
-)  # Example:- https://t.me/TheTeamVivek
+    "SUPPORT_CHANNEL", "https://t.me/Feel_Smile"
+)  # Example:- https://t.me/Feel_Smile
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheTeamVk"
-)  # Example:- https://t.me/TheTeamVk
+    "SUPPORT_GROUP", "https://t.me/Neo_support_off"
+)  # Example:- https://t.me/Feel_Smile
 
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -211,17 +211,17 @@ autoclean = []
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg",
+    "https://iili.io/FxeYd37.md.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://iili.io/FxeYI3P.md.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://envs.sh/W_z.jpg",
+    "https://iili.io/Fxe7gQR.md.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
