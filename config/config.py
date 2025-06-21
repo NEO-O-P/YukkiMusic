@@ -65,7 +65,7 @@ DURATION_LIMIT_MIN = int(
 )  # Remember to give value in Minutes
 
 
-EXTRA_PLUGINS = is_bool(getenv("EXTRA_PLUGINS", "False"))
+EXTRA_PLUGINS = is_bool(getenv("EXTRA_PLUGINS", "True"))
 
 # Fill False if you Don't want to load extra plugins
 
@@ -142,7 +142,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/TheTeamVivek/YukkiMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/NEO-O-P/YukkiMusic")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
